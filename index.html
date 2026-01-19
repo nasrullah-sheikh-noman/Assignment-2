@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>TechWave</title>
+</head>
+<body>
+
+  <nav class="w-full lg:max-w-[1200px] mx-auto my-0 bg-[#1A0B2E] text-white h-24 flex justify-between px-6  items-center ">
+    <div >
+      <h2 class="font-bold text-3xl">Tech <span class="bg-linear-to-t from-[#f7e83fdf] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h2>
+    </div>
+    <div class=" hidden sm:flex justify-center gap-6 text-xl">
+      <a href="">About</a>
+      <a href="">Episodes</a>
+      <a href="">Host</a>
+    </div>
+    <div >
+       <button class=" hidden sm:flex text-xl text-white cursor-pointer w-36 h-11 rounded-full items-center justify-center bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] transition-all duration-100 hover:opacity-85  ">Subscribe <span><i class="fa-solid fa-arrow-right"></i></span> </button>
+
+       <div class="sm:hidden text-2xl cursor-pointer">
+        <img src="./assets//hamburger-menu.png" alt="">
+       </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="w-full max-w-[1600px] h-[760px] mx-auto my-0 bg-[url(./assets/hero-bg.png)] bg-cover bg-center flex items-center justify-center px-4">
+
+      <div class="w-full max-w-[500px] flex flex-col items-center text-center text-white">
+
+        <div class="relative w-[280px] h-[280px] md:w-[350px] md:h-[350px] bg-[url(./assets/hero-circle.png)] bg-contain bg-no-repeat bg-center flex  items-center justify-center mb-8">
+          <img class="w-1/2 md:w-auto" src="./assets/microphone.png" alt="">
+          <span class="absolute top-5 right-5 md:top-8 md:right-8 bg-[#00FF85] text-black text-[10px] md:text-xs  font-bold py-2 px-3 rounded-full ">
+            New
+          </span>
+        </div>
+
+        <div class="mb-8">
+          <h2 class="text-5xl md:text-6xl font-bold mb-4">TechWave</h2>
+          <p class="text-sm md:text-lg text-gray-300 max-w-[450px] mx-auto ">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-2">
+          <button class="flex items-center gap-2 bg-linear-to-r from-[#f7e83fdf] via-[#FB09B4] to-[#9100F8]  hover:opacity-85  px-6 py-3 rounded-full text-white font-medium transition-all">
+            <img src="./assets/spotify.png" alt="" class="w-5"> Listen on Spotify</button>
+
+          <button class="flex items-center gap-2 border border-[#00FF85] text-[#00FF85] hover:bg-green-500 hover:text-black px-6 py-3 rounded-full font-medium transition-all"><img src="./assets/message.png" alt="" class="w-5"> Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
