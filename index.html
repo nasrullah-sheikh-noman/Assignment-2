@@ -195,50 +195,81 @@
 
 
       <!-- Featured Section  -->
-      <section>
+      <section class="flex flex-col gap-40 px-52 py-32 max-w-[1600px] mx-auto bg-[#1A0B2E] text-white">
+
         <div class="w-full lg: max-w-[1200px] mx-auto gap-10 flex flex-col justify-center items-center text-center">
           <h2 class="text-5xl font-bold">
             Featured Episodes
           </h2>
-          <div class="w-full lg:max-w-[1200px] mx-auto gap-6 text-white grid grid-cols-3 ">
+          <div class="gap-8 grid grid-cols-3 ">
 
-            <div class="w-[400px] h-[450px] bg-[#351165] col-span-1 flex flex-col rounded-3xl">
-              <iframe class="rounded-tl-3xl rounded-tr-3xl" width="400" height="215" src="https://www.youtube.com/embed/i4laq6e_B6U?si=esMn7k2PbgUZVI-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="w-[380px] h-[460px] bg-[#351165] col-span-1 flex flex-col rounded-3xl ">
+              <iframe class="rounded-tl-3xl rounded-tr-3xl" width="380" height="215" src="https://www.youtube.com/embed/i4laq6e_B6U?si=esMn7k2PbgUZVI-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-              <h3>The Future of AI in Everyday Life</h3>
-              <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-              <div>
-                <img src="./assets/clock.png" alt="">
-                <span>42 min</span>
+              <div class="flex flex-col p-6 text-left gap-3">
+                <h3 class="text-2xl font-bold">The Future of AI in Everyday Life</h3>
+                <p class="text-base">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                <div class="flex flex-row gap-2 text-center items-center">
+                  <img class="h-4" src="./assets/clock.png" alt="">
+                  <span>42 min</span>
+                </div>
               </div>
             </div>
 
-            <div class="w-[400px] h-[450px] bg-[#351165] col-span-1 rounded-3xl">
-              <iframe class="rounded-tl-3xl rounded-tr-3xl" width="400" height="215" src="https://www.youtube.com/embed/xW8XSR-2WWw?si=BytHG91Atw9PGDeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="w-[380px] h-[460px] bg-[#351165] col-span-1 rounded-3xl">
+              <iframe class="rounded-tl-3xl rounded-tr-3xl" width="380" height="215" src="https://www.youtube.com/embed/xW8XSR-2WWw?si=BytHG91Atw9PGDeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-              <h3>Building Better Habits for Remote Work</h3>
-              <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-              <div>
-                <img src="./assets/clock.png" alt="">
-                <span>42 min</span>
+              <div class="flex flex-col p-6 text-left gap-3">
+                <h3 class="text-2xl font-bold">Building Better Habits for Remote Work</h3>
+                <p class="text-base">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                <div class="flex flex-row gap-2 text-center items-center">
+                  <img class="h-4" src="./assets/clock.png" alt="">
+                  <span>42 min</span>
+                </div>
               </div>
-            </div>
-
-            <div class=" w-[400px] h-[450px] bg-[#351165] col-span-1 rounded-3xl">
-              <iframe class="rounded-tl-3xl rounded-tr-3xl" width="400" height="215" src="https://www.youtube.com/embed/Sbn18WSKRtE?si=ER0EBtY242ojuzQ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               
-
-              <h3>Career Growth in Tech: A Roadmap</h3>
-              <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
-              <div>
-                <img src="./assets/clock.png" alt="">
-                <span>42 min</span>
-              </div>
             </div>
 
-
+            <div class=" w-[380px] h-[460px] bg-[#351165] col-span-1 rounded-3xl">
+              <iframe class="rounded-tl-3xl rounded-tr-3xl" width="380" height="215" src="https://www.youtube.com/embed/Sbn18WSKRtE?si=ER0EBtY242ojuzQ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+              <div class="flex flex-col p-6 text-left gap-3">
+                <h3 class="text-2xl font-bold">Career Growth in Tech: A Roadmap</h3>
+                <p class="text-base">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                <div class="flex flex-row gap-2 text-center items-center">
+                  <img class="h-4" src="./assets/clock.png" alt="">
+                  <span>42 min</span>
+                </div>
+              </div>
+              
+            </div>
 
           </div>
+        </div>
+
+        <!-- meet the host  -->
+        <div class="max-w-[1200px]  flex flex-col justify-center items-center mx-auto gap-10">
+
+          <div>
+            <h2 class="text-5xl font-bold">Meet the Host</h2>
+          </div>
+
+          <div class="bg-[#351165] h-72 rounded-3xl px-10 py-12 text-white grid grid-cols-5">
+
+            <img class="col-span-1" src="./assets/host.png" alt="">
+
+            <div class="col-span-4 flex flex-col gap-6 p-3">
+              <h2 class="text-3xl font-bold">Alex Kumar</h2>
+              <p class="text-base">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+              <div class="flex items-start text-center justify-items-start gap-3">
+                <img src="./assets/linkedin.png" alt="">
+                <img src="./assets/x.png" alt="">
+                <img src="./assets/instagram.png" alt="">
+                <img src="./assets/youtube.png" alt="">
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
